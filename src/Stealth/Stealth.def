@@ -1,0 +1,4 @@
+LIBRARY	"Stealth"
+EXPORTS
+	LoadDll
+	Stealth

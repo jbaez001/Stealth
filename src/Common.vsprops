@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Common"
+	OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+	IntermediateDirectory="$(SolutionDir)$(ConfigurationName)\obj\$(ProjectName)"
+	BuildLogFile="$(SolutionDir)$(ConfigurationName)\BuildLogs\$(ProjectName).htm"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="$(SolutionDir)src"
+		PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS"
+		ProgramDataBaseFileName="$(IntDir)\vc90.pdb"
+	/>
+	<Tool
+		Name="VCLibrarianTool"
+		OutputFile="$(OutDir)\lib\$(ProjectName).lib"
+		AdditionalLibraryDirectories="$(SolutionDir)$(ConfigurationName)\lib"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalLibraryDirectories="$(SolutionDir)$(ConfigurationName)\lib"
+		ProgramDatabaseFile="$(TargetDir)pdb\$(TargetName).pdb"
+		ImportLibrary="$(TargetDir)lib\$(TargetName).lib"
+	/>
+	<Tool
+		Name="VCPostBuildEventTool"
+		CommandLine=""
+	/>
+</VisualStudioPropertySheet>

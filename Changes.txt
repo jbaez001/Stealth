@@ -1,0 +1,5 @@
+Stealth v1.0.1
+* Added support for worthless operating systems (Windows XP, Windows Server 2003).
+
+Stealth v1.0.0
+* Initial implementation.

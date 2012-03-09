@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mIRC DLL", "mIRC DLL", "{887AE57E-904D-47A9-874D-F29592B3E9B1}"
+	ProjectSection(SolutionItems) = preProject
+		Changes.txt = Changes.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stealth", "src\Stealth\Stealth.vcproj", "{AFC0F8EE-6D32-4817-9DA2-32930FB9206E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Genscripts Library", "Genscripts Library", "{EC015ED6-A1CF-4332-A3EC-82C8A68608D0}"
+	ProjectSection(SolutionItems) = preProject
+		src\Gen\Console.hpp = src\Gen\Console.hpp
+		src\Gen\Error.hpp = src\Gen\Error.hpp
+		src\Gen\Gen.hpp = src\Gen\Gen.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mIRC", "mIRC", "{D5FB8267-4527-4CB7-8845-DB155CDCCDD9}"
+	ProjectSection(SolutionItems) = preProject
+		src\Gen\mIRC\Map.hpp = src\Gen\mIRC\Map.hpp
+		src\Gen\mIRC\Moo.hpp = src\Gen\mIRC\Moo.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{B597AA7E-D274-49E3-9757-78837A1CF2E0}"
+	ProjectSection(SolutionItems) = preProject
+		Authors.txt = Authors.txt
+		License.txt = License.txt
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC0F8EE-6D32-4817-9DA2-32930FB9206E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFC0F8EE-6D32-4817-9DA2-32930FB9206E}.Release|Win32.ActiveCfg = Release|Win32
+		{AFC0F8EE-6D32-4817-9DA2-32930FB9206E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFC0F8EE-6D32-4817-9DA2-32930FB9206E} = {887AE57E-904D-47A9-874D-F29592B3E9B1}
+		{D5FB8267-4527-4CB7-8845-DB155CDCCDD9} = {EC015ED6-A1CF-4332-A3EC-82C8A68608D0}
+	EndGlobalSection
+EndGlobal
